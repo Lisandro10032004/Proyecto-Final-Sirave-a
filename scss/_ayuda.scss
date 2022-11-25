@@ -1,0 +1,35 @@
+.container-card__ayuda {
+    .card-ayuda {
+      background-color: $color-primary;
+      border: solid 1px black;
+      height: 100px;
+      margin: 10px;
+      width: 47%;
+     border-radius: 10px;
+      border: solid 1px rgb(45, 0, 181);
+  
+
+      i{
+        font-size: 300%;
+      margin-top: 3%;
+        text-align: center;
+       
+    
+      }
+    }
+  }
+  
+  .card-ayuda:hover {
+    background-image: linear-gradient(to left, blue, red);
+    color: $color-primary;
+    border: solid black 1px;
+   
+  }
+  
+  @media (max-width: 770px) {
+    .container-card__ayuda {
+      .card-ayuda {
+        width: 90%;
+      }
+    }
+  }
